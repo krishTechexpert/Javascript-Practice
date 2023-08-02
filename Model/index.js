@@ -27,5 +27,6 @@ function presentInfoModal(event) {
   document.body.appendChild(infoModal);
 }
 modalLinkElements.forEach(function(item, index) {
+  
   item.addEventListener("click", presentInfoModal);
 });
